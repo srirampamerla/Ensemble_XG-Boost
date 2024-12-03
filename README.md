@@ -22,6 +22,7 @@ Coinsder above dataset
 7. Continue with next feature. 
 
 ![Alt text](https://github.com/srirampamerla/Ensemble_XG-Boost/blob/main/xg4.png?raw=true)
+
 Calculate similarity weight and Gain 
 Calculate in both left and right leaf. Here for credit we got same gain we are coinsdering anyone.
 
@@ -38,6 +39,7 @@ Calculate in both left and right leaf. Here for credit we got same gain we are c
 10. Again calculate Residual 2(actual-new predicted value) and start from step-1
 
 ![Alt text](https://github.com/srirampamerla/Ensemble_XG-Boost/blob/main/xg7.png?raw=true)
+
    Final =σ(base model+α(DT1)+α(DT2)+......+α(DTn)
 
    Post pruning--> Core value-> pr(1-pr). if gain< core value then we will get the branch
