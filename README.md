@@ -16,11 +16,14 @@ Coinsder above dataset
 
 5. Calculate Gain. Which tree has Highest Gain take that.
    Gain= Similarity weight of (left tree+right tree- overall or parent similarity weight)
+   0+0.33-0.1428=0.1872
    Here above we calculated and constructed  for both salary and credit Gain. In which salary as higher. So we are coinsdering root node as Salary
  
-7. Continue with next feature. Calculate in both left and right leaf. Here for credit we got same gain we are coinsdering anyone
+7. Continue with next feature. 
 
 ![Alt text](https://github.com/srirampamerla/Ensemble_XG-Boost/blob/main/xg4.png?raw=true)
+Calculate similarity weight and Gain 
+Calculate in both left and right leaf. Here for credit we got same gain we are coinsdering anyone.
 
 8. After reaching leaf node we need to calculate new predicted value
    log(odds)=log(p/1-p) for base model
