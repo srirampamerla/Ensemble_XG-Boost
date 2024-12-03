@@ -6,7 +6,7 @@ XGBoost (Extreme Gradient Boosting): An optimized implementation of gradient boo
 Coinsder above dataset
 1. Coinsder Base Model(i.e Probability is (0+1/2)=0.5=predicted
 2. Calculate Residual(actual-predicted)
-3. Construct Decision Tree with root
+3. Construct Decision Tree for all the features which has Gain higher that will be root node.
 
   ![Alt text](https://github.com/srirampamerla/Ensemble_XG-Boost/blob/main/xg3.png?raw=true)
 
